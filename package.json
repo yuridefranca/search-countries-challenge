@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "styled-components": "^6.1.8",
+    "swc": "^1.0.11",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
@@ -28,6 +32,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "husky": "^9.0.11",
+    "sass": "^1.71.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
   },
@@ -35,5 +40,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "resolutions": {
+    "styled-components": "^6"
   }
 }

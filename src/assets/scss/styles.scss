@@ -1,0 +1,14 @@
+@import './reset';
+@import './variables';
+
+body {
+	background-color: var(--backgroundPrimary);
+	color: var(--textContentPrimary);
+	font-size: 14px;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	font-weight: var(--fontNormal);
+}
